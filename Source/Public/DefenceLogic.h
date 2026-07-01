@@ -4,5 +4,5 @@
 class DefenceLogic
 {
 public:
-    std::string DefenseResult(int ZombiesCount, float Distance, int AmmoCount);
+    std::string DefenseResult(unsigned zombies, float distance, unsigned ammo);
 };
